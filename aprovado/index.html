@@ -1,0 +1,67 @@
+<!-- <!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<title>Aprovado</title>
+  
+</head>
+
+<body>
+
+<style>
+
+  img{
+    width: 100px;
+    height: 100px;
+    /* Centralizar na vertical e na horizontal */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+
+  #imagem{
+    position: relative;
+  }
+  
+  
+</style>
+
+  <div class="imagem">
+<img src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-3/3/31-1024.png">
+<button onclick="Back()">Copie a URL</button>
+
+  </div>
+
+  <script>
+
+  function Back() {
+    
+     navigator.clipboard.writeText("https://turn-modz-site.turnmodz.repl.co")
+    alert("Codigo copiado com sucesso!!")
+
+    var inputMessageBox = document.querySelectorAll("button")[0]; 
+    var message = "Test Message";
+    var uiEvent = document.createEvent("UIEvents"); 
+    inputMessageBox.innerHTML = message; 
+    uiEvent.initUIEvent("input", true, true, window, 1); 
+    inputMessageBox.dispatchEvent(uiEvent); 
+
+    var mouseEvent = document.createEvent("MouseEvents"); 
+    mouseEvent.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null); 
+    document.querySelector('span[data-icon="send"]').dispatchEvent(mouseEvent);
+    
+  }
+    
+  </script>
+  
+  
+</body>
+
+
+
+
+
+
+
+</html> -->
